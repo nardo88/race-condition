@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 124%;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+  border-right: 1px solid grey;
+  height: 100vh;
+}
+
+.content {
+  padding: 20px;
+}
+
+.list-item {
+  padding: 15px;
+  cursor: pointer;
+}
+.list-item:hover {
+  background-color: grey;
+  color: white;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+}
